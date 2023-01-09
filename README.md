@@ -9,14 +9,14 @@ A GuardDuty finding represents a potential security issue detected within the ne
 ## API Design 
 
 ## Technology Architecture Design 
-![Work-Flow Diagram](https://github.com/roshangami/asset_inventory/blob/main/images/dfd.png "Threat detection and remediation diagram")
+![Work-Flow Diagram](https://github.com/roshangami/asset_inventory/blob/main/images/dfd.png "Work Flow Diagram")
 
 The project is created in classical AWS  3 tier application development structure. The front end tier is hosted in AWS EC2 instance. 
 Second tier is basically the backend servers where the request from front end servers are forwarded to API Gateway and processed at AWS Lambda function.  
 Third tier is the database where Dynamodb is used to store all the data. 
 
 The below diagram explains how the tool is able to gather information
-![Work-Flow Diagram](https://github.com/roshangami/asset_inventory/blob/main/images/aws.png "Threat detection and remediation diagram")
+![Work-Flow Diagram](https://github.com/roshangami/asset_inventory/blob/main/images/aws.png "Work Flow Diagram")
 
 We have 2 AWS accounts, the F22 Raptor is the service account and the first box in the diagram is the customer AWS account. 
 In the customer AWS account we just need to create one IAM role with a set of read only permissions for various AWS services.  
@@ -24,7 +24,7 @@ Now in the AWS service account (F22 Raptor) that role just need to be assumed an
 
 
 ## Tools and Technologies 
-![tools](https://github.com/roshangami/aws_threat_prevention/blob/master/images/DFD-guardDuty.png "Threat detection and remediation diagram")
+![tools](https://github.com/roshangami/asset_inventory/blob/main/images/tools.png "Tools and Technologies")
  
 
 ## Author 
