@@ -1,0 +1,70 @@
+html {
+    background: #fafafa;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+}
+
+.App {
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    line-height: 1.42857;
+    text-rendering: optimizeLegibility;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoutButton {
+    display: "flex";
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+[data-column-id="1"].rdt_TableCol {
+    /* background-color: green; */
+    font-weight: bold;
+}
+
+[data-column-id="2"].rdt_TableCol {
+    /* background-color: orange; */
+    font-weight: bold;
+}
+
+[data-column-id="3"].rdt_TableCol {
+    /* background-color: orange; */
+    font-weight: bold;
+
+}
+
+[data-column-id="4"].rdt_TableCol {
+    /* background-color: orange; */
+    font-weight: bold;
+}
+
+[data-column-id="5"].rdt_TableCol {
+    /* background-color: orange; */
+    font-weight: bold;
+}
+
+[data-column-id="6"].rdt_TableCol {
+    /* background-color: orange; */
+    font-weight: bold;
+}
+
+[data-column-id="7"].rdt_TableCol {
+    /* background-color: orange; */
+    font-weight: bold;
+}
+
+[data-column-id="8"].rdt_TableCol {
+    /* background-color: orange; */
+    font-weight: bold;
+}
+
+[data-column-id="9"].rdt_TableCol {
+    /* background-color: orange; */
+    font-weight: bold;
+}
